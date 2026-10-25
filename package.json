@@ -1,7 +1,7 @@
 {
   "name": "dsh-auto-model-routing",
-  "version": "0.3.0",
-  "description": "DeepSeek Harness plugin: use Jev to adjust reasoning effort per turn without changing the selected model, with configurable subagent routing",
+  "version": "0.4.0",
+  "description": "DeepSeek Harness plugin: independent Jev capability and effort decisions, enforced fresh-child routes, decision visibility and allocation feedback",
   "license": "MIT",
   "author": "prgrmrwy",
   "repository": { "type": "git", "url": "git+https://github.com/prgrmrwy/dsh-auto-model-routing.git" },
@@ -99,7 +99,7 @@
     "@deepseek-ai/dsh-credentials": "^0.2.0-rc.2",
     "@deepseek-ai/dsh-llm": "^0.2.0-rc.2",
     "@deepseek-ai/dsh-session-projection": "^0.2.0-rc.2",
-    "react": "^19.0.0",
+    "react": "^18.3.1 || ^19.0.0",
     "@deepseek-ai/dsh-launch-environment": "^0.2.0-rc.2",
     "@deepseek-ai/dsh-skill-filesystem": "^0.2.0-rc.2",
     "@deepseek-ai/dsh-tools": "^0.2.0-rc.2"
